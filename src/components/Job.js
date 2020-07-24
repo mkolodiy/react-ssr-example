@@ -17,7 +17,7 @@ const Job = ({ job }) => {
   const date = new Date(created_at).toLocaleDateString();
 
   return (
-    <Card>
+    <Card className="mb-3">
       <Card.Body>
         <div className="d-flex justify-content-between">
           <div>
